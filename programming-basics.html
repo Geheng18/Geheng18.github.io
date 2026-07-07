@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PHC 6099: Programming Basics for Biostatistics &middot; Heng Ge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="nav-logo" href="index.html">Heng Ge</a>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="awards.html">Awards</a></li>
+        <li><a href="mountaineering.html">Mountains</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="section">
+      <p class="note"><a href="teaching.html">&larr; Back to Teaching</a></p>
+      <h1 class="page-title">PHC 6099: Programming Basics for Biostatistics</h1>
+      <p class="page-lead">Fall 2026</p>
+
+      <div class="course-meta">
+        <p><strong>Instructor:</strong> Heng Ge (<a href="mailto:heng.ge@ufl.edu">heng.ge@ufl.edu</a>)</p>
+        <p><strong>Lecture time &amp; room:</strong><br />
+          Tuesday 3:00pm &ndash; 3:50pm &middot; HPNP G105<br />
+          Thursday 1:55pm &ndash; 3:50pm &middot; HPNP G105</p>
+        <p><strong>Office Hours:</strong> Tuesday 3:00 &ndash; 4:30pm</p>
+        <p class="note">Course materials adapted from Dr.&nbsp;Zhiguang&nbsp;(Caleb)&nbsp;Huo's
+          PHC&nbsp;6099, with thanks.</p>
+      </div>
+
+      <h2 class="subhead">Schedule</h2>
+      <p class="note">Estimated class schedule. It is subject to change, depending on time and class interests.</p>
+
+      <div class="table-wrap">
+        <table class="table" id="schedule">
+          <thead>
+            <tr><th style="width:11%">Date</th><th style="width:31%">Content</th><th style="width:26%">Materials</th><th style="width:32%">Note</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Thur Aug 24</td><td>Overview</td><td><a href="pb-lectures/Week1_Overview/overview.html">slides</a></td><td><a href="pb-lectures/Week1_Overview/RMarkdown.rmd">RMarkdown.rmd</a></td></tr>
+            <tr><td>Tue Aug 29</td><td>No class</td><td></td><td></td></tr>
+            <tr><td>Thur Aug 31</td><td>Basics of R programming</td><td><a href="pb-lectures/Week2_Basic/basic.html">slides</a>; <a href="pb-lectures/Week2_Basic/basic.R">R</a></td><td>HW 1 distributed</td></tr>
+            <tr><td>Tue Sep 5</td><td>Writing functions in R</td><td><a href="pb-lectures/Week3_Vectorize/functions.html">slides</a>; <a href="pb-lectures/Week3_Vectorize/functions.R">R</a></td><td></td></tr>
+            <tr><td>Thur Sep 7</td><td>Vectorized calculations</td><td><a href="pb-lectures/Week3_Vectorize/vectorized.html">slides</a>; <a href="pb-lectures/Week3_Vectorize/vectorized.R">R</a></td><td></td></tr>
+            <tr><td>Tue Sep 12</td><td>Data manipulation (Tidyverse)</td><td><a href="pb-lectures/Week4_Tidyverse/tidyverse.html">slides</a>; <a href="pb-lectures/Week4_Tidyverse/tidyverse.R">R</a></td><td></td></tr>
+            <tr><td>Thur Sep 14</td><td>R graphics (advanced)</td><td><a href="pb-lectures/Week4_Tidyverse/Rgraph_ggplot2.html">slides</a>; <a href="pb-lectures/Week4_Tidyverse/Rgraph_ggplot2.R">R</a></td><td>HW 1 due, HW 2 distributed</td></tr>
+            <tr><td>Tue Sep 19</td><td>R graphics (basic)</td><td><a href="pb-lectures/Week5_ggplot2/Rgraph_basic.html">slides</a>; <a href="pb-lectures/Week5_ggplot2/Rgraph_basic.R">R</a></td><td></td></tr>
+            <tr><td>Thur Sep 21</td><td>R Shiny</td><td><a href="pb-lectures/Week6_RShiny/RShiny.html">slides</a>; <a href="pb-lectures/Week6_RShiny/RShiny.R">R</a></td><td></td></tr>
+            <tr><td>Tue Sep 26</td><td>HiPerGator</td><td><a href="pb-lectures/Week6_RShiny/HiperGator.html">slides</a></td><td></td></tr>
+            <tr><td>Thur Sep 28</td><td>R packages</td><td><a href="pb-lectures/Week7_RPackage/Rpackage.html">slides</a>; <a href="pb-lectures/Week7_RPackage/Rpackage.R">R</a></td><td>HW 2 due, Midterm distributed</td></tr>
+            <tr><td>Tue Oct 3</td><td>Rcpp</td><td><a href="pb-lectures/Week7_RPackage/Rcpp.html">slides</a>; <a href="pb-lectures/Week7_RPackage/Rcpp.R">R</a></td><td></td></tr>
+            <tr><td>Thur Oct 5</td><td>GitHub</td><td><a href="pb-lectures/Week8_GitHub/github.html">slides</a></td><td>Midterm due, Final project distributed</td></tr>
+            <tr><td>Tue Oct 10</td><td>Basics of Python programming</td><td><a href="pb-lectures/Week9_BasicPython/BasicPython.html">slides</a>; <a href="pb-lectures/Week9_BasicPython/BasicPython.py">py</a></td><td></td></tr>
+            <tr><td>Thur Oct 12</td><td>Basics of Python programming (part 2)</td><td><a href="pb-lectures/Week9_BasicPython/BasicPython2.html">slides</a>; <a href="pb-lectures/Week9_BasicPython/BasicPython2.py">py</a></td><td>HW 3 distributed</td></tr>
+            <tr><td>Tue Oct 17</td><td>Regular expressions</td><td><a href="pb-lectures/Week10_functions/regularExpression.html">slides</a>; <a href="pb-lectures/Week10_functions/regularExpression.py">py</a></td><td></td></tr>
+            <tr><td>Thur Oct 19</td><td>Python functions, modules</td><td><a href="pb-lectures/Week10_functions/functions.html">slides</a>; <a href="pb-lectures/Week10_functions/functions.py">py</a></td><td></td></tr>
+            <tr><td>Tue Oct 24</td><td>Object-oriented programming (OOP)</td><td><a href="pb-lectures/Week11_OOP/OOP.html">slides</a>; <a href="pb-lectures/Week11_OOP/OOP.py">py</a></td><td></td></tr>
+            <tr><td>Thur Oct 26</td><td>OOP and Python Shiny</td><td><a href="pb-lectures/Week11_OOP/shiny_python.html">slides</a>; <a href="pb-lectures/Week11_OOP/shiny_python.py">py</a></td><td>HW 3 due, HW 4 distributed</td></tr>
+            <tr><td>Tue Oct 31</td><td>Python Shiny (part 2)</td><td><a href="pb-lectures/Week12_Numpy/shiny_python_UI.html">slides</a>; <a href="pb-lectures/Week12_Numpy/shiny_python_UI.py">py</a></td><td></td></tr>
+            <tr><td>Thur Nov 2</td><td>NumPy Basics</td><td><a href="pb-lectures/Week12_Numpy/Numpy_basic.html">slides</a>; <a href="pb-lectures/Week12_Numpy/Numpy_basic.py">py</a></td><td></td></tr>
+            <tr><td>Tue Nov 7</td><td>NumPy Advanced</td><td><a href="pb-lectures/Week12_Numpy/Numpy_advanced.html">slides</a>; <a href="pb-lectures/Week12_Numpy/Numpy_advanced.py">py</a></td><td></td></tr>
+            <tr><td>Thur Nov 9</td><td>Pandas Basics</td><td><a href="pb-lectures/Week13_Pandas/Pandas_Basics.html">slides</a>; <a href="pb-lectures/Week13_Pandas/Pandas_Basics.py">py</a></td><td>HW 4 due, HW 5 distributed</td></tr>
+            <tr><td>Tue Nov 14</td><td>Pandas Advanced</td><td><a href="pb-lectures/Week14_Pandas_v2/Pandas_dataManipulation.html">slides</a>; <a href="pb-lectures/Week14_Pandas_v2/Pandas_dataManipulation.py">py</a></td><td></td></tr>
+            <tr><td>Thur Nov 16</td><td>Python graphics</td><td>matplotlib: <a href="pb-lectures/Week15_PythonGraphics/Matplotlib.html">slides</a>; <a href="pb-lectures/Week15_PythonGraphics/Matplotlib.py">py</a><br />seaborn: <a href="pb-lectures/Week15_PythonGraphics/Seaborn.html">slides</a>; <a href="pb-lectures/Week15_PythonGraphics/Seaborn.py">py</a></td><td></td></tr>
+            <tr><td>Tue Nov 21</td><td>Special topics: Database (MySQL)</td><td><a href="pb-lectures/Week16_SQL/sql.html">slides</a>; <a href="pb-lectures/Week16_SQL/sql.py">py</a></td><td></td></tr>
+            <tr><td>Thur Nov 23</td><td>Thanksgiving &mdash; no class</td><td></td><td></td></tr>
+            <tr><td>Tue Nov 28</td><td>Special topics: OpenAI API Basics</td><td><a href="pb-lectures/Week16_ChatGPT/chatGPT_basics.html">slides</a>; <a href="pb-lectures/Week16_ChatGPT/chatGPT_basics.py">py</a></td><td>HW 5 due</td></tr>
+            <tr><td>Thur Nov 30</td><td>Special topics: OpenAI API Case Studies</td><td><a href="pb-lectures/Week16_ChatGPT/chatGPT_casestudy.html">slides</a></td><td></td></tr>
+            <tr><td>Tue Dec 5</td><td>No class</td><td></td><td>Final exam released</td></tr>
+            <tr><td>Thur Dec 7</td><td>No class</td><td></td><td>Final project due</td></tr>
+            <tr><td>Tue Dec 12</td><td>No class</td><td></td><td>Final exam due</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Heng Ge. Built with plain HTML &amp; CSS, hosted on GitHub Pages.</p>
+  </footer>
+
+  <script src="site.js"></script>
+</body>
+</html>
